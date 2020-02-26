@@ -19,7 +19,7 @@ namespace TabbedDontUseMyApp
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            ImageView.Source = "dude.jpg";
+            ImageView.Source = MainPage.GlobalVariables.selectedUrl;
         }
     }
 }

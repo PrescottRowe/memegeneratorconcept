@@ -11,13 +11,13 @@
             <Image x:Name="ImageView" WidthRequest="350" HeightRequest="350"
                 RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -175}"  
                 RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= -200}"/>
-            <Label BindingContext="{x:Reference Name=UpperEntry}" WidthRequest="320" HeightRequest="100" Text="{Binding Text}" TextColor="WhiteSmoke" FontSize="25" HorizontalTextAlignment="Center" 
+            <Label BindingContext="{x:Reference Name=UpperEntry}" WidthRequest="320" HeightRequest="100" Text="{Binding Text}" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" FontAttributes="Bold"
                 RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -160}"  
                 RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= -200}"/>
             <Entry x:Name="UpperEntry" WidthRequest="320" HeightRequest="100" Placeholder="Upper Text input" HorizontalTextAlignment="Center" VerticalTextAlignment="End"
                 RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -160}"  
                 RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= -325}"/>
-            <Label BindingContext="{x:Reference Name=LowerEntry}" WidthRequest="320" HeightRequest="100" Text="{Binding Text}" TextColor="WhiteSmoke" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="End"
+            <Label BindingContext="{x:Reference Name=LowerEntry}" WidthRequest="320" HeightRequest="100" Text="{Binding Text}" TextColor="Black" FontSize="30" HorizontalTextAlignment="Center" VerticalTextAlignment="End" FontAttributes="Bold"
                 RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -160 }"  
                 RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent,  Property=Height, Factor=0.5, Constant= 50}"/>
             <Entry x:Name="LowerEntry" WidthRequest="320" HeightRequest="100" Placeholder="Lower Text input" HorizontalTextAlignment="Center" VerticalTextAlignment="End"

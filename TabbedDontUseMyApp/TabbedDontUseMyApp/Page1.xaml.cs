@@ -57,6 +57,8 @@ namespace TabbedDontUseMyApp
         void UpdateSelectionData(IEnumerable<object> previousSelectedMeme, IEnumerable<object> currentSelectedMeme)
         {
             var selectedMeme = currentSelectedMeme.FirstOrDefault() as Meme;
+            MainPage.GlobalVariables.selectedUrl = selectedMeme.Url;
+            MainPage.GlobalVariables.selectedName = selectedMeme.MemeName;
             //Debug.WriteLine("Meme: " + selectedMeme.MemeName);
         }
         protected override void OnDisappearing()

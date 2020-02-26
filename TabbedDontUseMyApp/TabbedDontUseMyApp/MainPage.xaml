@@ -7,6 +7,8 @@
              x:Class="TabbedDontUseMyApp.MainPage"
              xmlns:pages="clr-namespace:TabbedDontUseMyApp;assembly=TabbedDontUseMyApp" 
              Title="Tabby">
+    
+    
     <TabbedPage.Children>
         <pages:Page1/>
         <pages:Page2/>
