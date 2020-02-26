@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TabbedDontUseMyApp.Page4"
+             Title="Popular">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Poplular Page" TextColor="DeepSkyBlue" FontAttributes="Bold" FontSize="40" Opacity="100" HorizontalOptions="Center" Padding="10">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="MarkerFelt-Thin" />
+                            <On Platform="Android" Value="Droid Sans Mono" />
+                        </OnPlatform>
+                    </Label.FontFamily>
+                </Label>
+                <Grid>
+                    <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s3.jpg" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s4.jpg" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                </Grid>
+                <Grid>
+                    <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s5.jpg" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s6.jpg" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                </Grid>
+                <Grid>
+                    <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s7.jpg" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s8.jpg" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                </Grid>
+                <Grid>
+                    <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s9.png" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="WhiteSmoke" Margin="5" BorderColor="LightSlateGray" CornerRadius="15" HasShadow="True">
+                        <Image Source="s1.jpeg" Aspect="AspectFill" HeightRequest="150" WidthRequest="150"/>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

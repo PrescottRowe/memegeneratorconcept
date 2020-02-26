@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TabbedDontUseMyApp.Page1"
+             Title="Pictures">
+
+    <ContentPage.Content>
+
+        <StackLayout Spacing="5">
+
+            <CollectionView x:Name="collectionViewListVertical" SelectionMode="Single"
+                        SelectionChanged="CollectionViewListSelectionChanged">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Spacing="8">
+                            <Frame>
+                                <StackLayout>
+                                    <Frame>
+                                        <Image Source="{Binding Url}" />
+                                    </Frame>
+                                    <Label Text="{Binding MemeName}" HorizontalOptions="Center" FontSize="20"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

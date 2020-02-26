@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TabbedDontUseMyApp.Page2"
+             Title="Edit">
+    <ContentPage.Content>
+        <RelativeLayout x:Name="container">
+            <Image x:Name="ImageView" WidthRequest="350" HeightRequest="350"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -175}"  
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= -200}"/>
+            <Label BindingContext="{x:Reference Name=UpperEntry}" WidthRequest="320" HeightRequest="100" Text="{Binding Text}" TextColor="WhiteSmoke" FontSize="25" HorizontalTextAlignment="Center" 
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -160}"  
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= -200}"/>
+            <Entry x:Name="UpperEntry" WidthRequest="320" HeightRequest="100" Placeholder="Upper Text input" HorizontalTextAlignment="Center" VerticalTextAlignment="End"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -160}"  
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= -325}"/>
+            <Label BindingContext="{x:Reference Name=LowerEntry}" WidthRequest="320" HeightRequest="100" Text="{Binding Text}" TextColor="WhiteSmoke" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="End"
+                RelativeLayout.XConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -160 }"  
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent,  Property=Height, Factor=0.5, Constant= 50}"/>
+            <Entry x:Name="LowerEntry" WidthRequest="320" HeightRequest="100" Placeholder="Lower Text input" HorizontalTextAlignment="Center" VerticalTextAlignment="End"
+                RelativeLayout.XConstraint= "{ConstraintExpression  Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -160 }"  
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= 125}"/>
+            <Button Text="SAVE" WidthRequest="200" BackgroundColor="LightBlue"
+                RelativeLayout.XConstraint= "{ConstraintExpression  Type=RelativeToParent, Property=Width, Factor=0.5, Constant= -100 }"  
+                RelativeLayout.YConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5, Constant= 250}"/>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

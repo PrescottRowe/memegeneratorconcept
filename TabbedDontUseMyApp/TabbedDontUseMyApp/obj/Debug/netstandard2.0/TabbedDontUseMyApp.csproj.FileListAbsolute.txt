@@ -1,0 +1,16 @@
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\bin\Debug\netstandard2.0\TabbedDontUseMyApp.deps.json
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\bin\Debug\netstandard2.0\TabbedDontUseMyApp.dll
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\bin\Debug\netstandard2.0\ref\TabbedDontUseMyApp.dll
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\bin\Debug\netstandard2.0\TabbedDontUseMyApp.pdb
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\Page3.xaml.g.cs
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\Page4.xaml.g.cs
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\TabbedDontUseMyApp.AssemblyInfoInputs.cache
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\TabbedDontUseMyApp.AssemblyInfo.cs
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\TabbedDontUseMyApp.dll
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\ref\TabbedDontUseMyApp.dll
+C:\Users\presc\source\repos\TabbedDontUseMyApp\TabbedDontUseMyApp\TabbedDontUseMyApp\obj\Debug\netstandard2.0\TabbedDontUseMyApp.pdb
